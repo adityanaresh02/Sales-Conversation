@@ -33,7 +33,7 @@ conversation_structure = [
 dataset = []
 
 # Generate conversations
-for i in range(100):  # Generate 100 conversations
+for i in range(100):
     salesman = f'Salesman {i+1}'
     user = f'User {i+1}'
     timestamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
